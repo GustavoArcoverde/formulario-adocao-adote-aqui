@@ -3,10 +3,14 @@ body{
 }
 
 header{
+    background-color: #9fcca8;
     display: flex;
     justify-content: center;
     border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 1px 1px 3px black;
     width: 40%;
+    margin-left: 50px;
 }
 
 header>div{
