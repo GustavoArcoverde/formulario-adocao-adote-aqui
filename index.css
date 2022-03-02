@@ -131,3 +131,48 @@ input:hover{
     margin-left: 50px;
     width: 50%;
 }
+
+@media (max-width: 1025px){
+    .image{
+        display: flex;
+        justify-content: space-around;
+    }
+    img{
+        width: 100%;
+    }
+}
+
+@media (max-width: 426px){
+    main{
+        display: block;
+    }
+
+    header{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+
+    .container{
+        width: 93%;
+        margin: 0;
+    }
+
+    .image{
+        width: 100%;
+        margin: 0;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 376px){
+    .container{
+        width: 92%;
+    }
+}
+
+@media (max-width: 321px){
+    .container{
+        width: 90%;
+    }
+}
