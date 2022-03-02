@@ -58,8 +58,27 @@ main{
     margin-left: 50px;
     width: 38%;
     padding: 15px 15px;
+    padding-bottom: 30px;
     margin-top: 10px;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #9fcca8;
+}
+
+.dadosPessoais>form{
+    margin: 20px auto;
+}
+
+.questionario>form{
+    margin: 20px auto;
+}
+
+.image{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 100px;
 }
