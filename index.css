@@ -113,6 +113,10 @@ input[type=submit]{
     box-shadow: 1px 1px 3px black;
 }
 
+input{
+    transition-duration: 0.3s;
+}
+
 input:hover{
     background-color: lightgray;
 }
@@ -120,7 +124,10 @@ input:hover{
 .image{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    margin-left: 100px;
+    align-content: space-around;
+    row-gap: 60px;
+    margin-left: 50px;
+    width: 50%;
 }
