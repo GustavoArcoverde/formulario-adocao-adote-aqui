@@ -27,42 +27,45 @@
                 <h2>Dados Pessoais</h2>
                 <form>
                     <label for="nCompleto">Nome Completo:</label><br>
-                    <input type="text" id="nCompleto">
+                    <input type="text" class="inputDados">
                 </form>
                 <form>
                     <label for="emailContato">Email de Contato:</label><br>
-                    <input type="email" id="emailContato">
+                    <input type="email" class="inputDados">
                 </form>
                 <form>
                     <label for="telefone">Telefone/Celular:</label><br>
-                    <input type="number" id="telefone">
+                    <input type="number" class="inputDados">
                 </form>
                 <form>
                     <label for="endereço">Endereço:</label><br>
-                    <input type="text" id="endereço">
+                    <input type="text" class="inputDados">
                 </form>
             </div>
             <div class="questionario">
                 <h2>Questionário</h2>
                 <form>
                     <label for="nFamilia">Quantas pessoas moram com você?(Caso more sozinho, coloque 0)</label><br>
-                    <input type="number">
+                    <input type="number" class="inputQuest">
                 </form>
                 <form>
                     <label for="rendaCapita">Qual sua renda per capita?</label><br>
-                    <input type="number">
+                    <input type="number" class="inputQuest">
                 </form>
                 <form>
                     <label for="temPet">Você já possui algum animal de estimação? Se sim, quantos?</label><br>
                     <input type="radio" name="temPet" value="yes"> Sim
-                    <input type="number"> <br>
+                    <input type="number" class="inputQuest"> <br>
                     <input type="radio" name="temPet" value="no"> Não
                 </form>
                 <form>
                     <label for="custos">Você é capaz de arcar com os custos de um animal de estimação? Dentre esses
                         custos: ração, brinquedo, telas (Caso queira adotar um gato)</label><br>
-                    <input type="radio" name="compromisso" value="yes"> Sim
+                    <input type="radio" name="compromisso" value="yes" > Sim
                     <input type="radio" name="compromisso" value="no"> Não
+                </form>
+                <form>
+                    <input type="submit" value="Enviar">
                 </form>
             </div>
         </div>
